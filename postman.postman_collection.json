@@ -1,0 +1,149 @@
+{
+	"info": {
+		"_postman_id": "744f8f4e-6b71-4d10-b205-cd36c30925ce",
+		"name": "postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26849986"
+	},
+	"item": [
+		{
+			"name": "date 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/neo/rest/v1/feed?start_date=2020-02-03&end_date=2020-02-05",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"neo",
+						"rest",
+						"v1",
+						"feed"
+					],
+					"query": [
+						{
+							"key": "start_date",
+							"value": "2020-02-03"
+						},
+						{
+							"key": "end_date",
+							"value": "2020-02-05"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "date 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/neo/rest/v1/feed?start_date=2020-02-09&end_date=2020-02-10",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"neo",
+						"rest",
+						"v1",
+						"feed"
+					],
+					"query": [
+						{
+							"key": "start_date",
+							"value": "2020-02-09"
+						},
+						{
+							"key": "end_date",
+							"value": "2020-02-10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "date 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/neo/rest/v1/feed?start_date=2020-03-05&start_end=2020-03-07",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"neo",
+						"rest",
+						"v1",
+						"feed"
+					],
+					"query": [
+						{
+							"key": "start_date",
+							"value": "2020-03-05"
+						},
+						{
+							"key": "start_end",
+							"value": "2020-03-07"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "in",
+				"value": "query",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "api_key",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "L3SKx1U0mXr8OHXP37q4ceTONNochRSxF7HR8U6b",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
