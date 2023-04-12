@@ -1,3 +1,3 @@
-voici un exercice utilisant postman  
-contenant une collection sur l'api de la nasa
-permet d'avoir des information sur les asteroide a differente date 
+Voici un exercice utilisant Postman
+contenant une collection sur l'API de la NASA
+permettant d'avoir des informations sur les astéroïdes à différentes dates.
